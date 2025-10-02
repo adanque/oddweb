@@ -2,6 +2,9 @@ module.exports = {
   apps : [{
 	name: "backend",
 	script: "server/server.js",
+	env: {
+		PORT: 5000,
+	},
 	watch: true
   }, {
 	name: "frontend-spa",
