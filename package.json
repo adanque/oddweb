@@ -12,17 +12,10 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "serve": "^14.1.1",
-    "web-vitals": "^2.1.4",
-	"react-scripts": "^0.0.0"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm run starta\"\"npm run startb\"",
-    "starta": "node server/server.js",
-    "startb": "npm start",
-    "servestart": "concurrently \"npm run starta\"\"npm run startb\"",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "concurrently \"npm run starta\"\"npm run startb\""
   },
   "eslintConfig": {
     "extends": [
@@ -46,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "react-scripts": "^0.0.0"
   }
 }
