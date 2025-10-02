@@ -14,8 +14,9 @@ module.exports = {
     },
     {
       name: 'frontend',
-      script: 'serve -s build', // Command to serve your built React app
-      cwd: './build', // Path to your frontend directory
+      script: 'pm2', // Command to serve your built React app // serve -s build
+	  args: "serve /home/site/wwwroot --no-daemon --spa",
+      cwd: './', // Path to your frontend directory // build
       instances: 1,
       autorestart: true,
       watch: false,
