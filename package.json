@@ -16,7 +16,7 @@
 	"react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "npx serve -s build",
     "start_dev": "concurrently \"node server/server.js\" \"serve -s build\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
