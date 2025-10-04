@@ -23,10 +23,6 @@ jobs:
         with:
           node-version: '22.x'
           
-      - name: Grant execute permissions to react-scripts
-        run: chmod +x node_modules/.bin/react-scripts
-
-
       - name: npm install, build, and test
         run: |
           npm cache clean --force
