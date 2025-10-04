@@ -27,6 +27,7 @@ jobs:
         run: |
           npm cache clean --force
           npm install
+          npm install -g pm2
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4

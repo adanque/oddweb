@@ -3,12 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-	"node": "22.x"
-  },  
+    "node": "22.x"
+  },
   "type": "module",
   "scripts": {
-	"start" : "vite", 
+    "start": "vite",
     "dev": "vite",
+	"test": "vitest",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -34,6 +35,7 @@
     "globals": "^16.2.0",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
   }
 }
